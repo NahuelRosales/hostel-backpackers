@@ -1,0 +1,42 @@
+.servicios {
+    background-color: #219ebc;
+    padding: 10px 14px;
+    h2 {
+        text-align: left;
+    }
+    .subtitle {
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 360px;
+        .container__service {
+            display: flex;
+            flex-direction: column;
+            width: 66px;
+            align-items: center;
+            margin-bottom: 10px;
+
+            .container__service__icon {
+                width: 44px;
+                height: 44px;
+                background-color: #8ecae6;
+                border-radius: 22px;
+                align-content: center;
+                .icon {
+                    font-size: 22px;
+                    padding-top: 4px;
+                }
+            }
+            .container__service__descripcion {
+                margin-top: 5px;
+            }
+        }
+    }
+}

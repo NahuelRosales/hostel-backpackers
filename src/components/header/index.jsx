@@ -15,7 +15,7 @@ const Header = () => {
                 icon="material-symbols-light:menu"
                 onClick={() => setShowMenuBar(!showMenuBar)}
             />
-            {showMenuBar ? <div className="bg" onClick={() => setShowMenuBar(!showMenuBar)}></div> : null}
+            {showMenuBar ? <div className="bg"></div> : null}
 
             <nav className={` ${showMenuBar ? "menuBar" : "hiddenMenuBar"}`}>
                 <div

@@ -6,7 +6,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background: #F5F5F5;
+    background: #ffffff;
     .menuBar {
         padding: 24px 18px;
         flex-direction: column;
@@ -16,14 +16,17 @@ header {
         position: fixed;
         top: 0;
         left: 0;
-        background: #f5f5f5;
+        background: #ffffff;
         transition: margin-right 2s;
         
     }
 
     .top-menu-bar {
         display: flex;
-        justify-content: space-between;
+        align-items: center;
+        .icon {
+            margin-right: 17px;
+        }
     }
     .close-menu{
         cursor: pointer;
