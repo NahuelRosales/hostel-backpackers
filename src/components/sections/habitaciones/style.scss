@@ -1,0 +1,50 @@
+.section-habitaciones {
+    padding: 10px 14px;
+    h2 {
+        text-align: left;
+    }
+    .subtitle {
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .container-card {
+        display: flex;
+        flex-wrap: wrap;
+
+
+        .card {
+        max-width: 420px;
+        margin: 0 20px;
+
+            .img-card {
+                width: 100%;
+            }
+            h3 {
+                font-weight: normal;
+                text-align: left;
+                margin: 6px 5px;
+            }
+            .servicios {
+                display: flex;
+                margin: 20px 0 15px 0;
+                justify-content: space-around;
+
+
+                .servicios__servicio {
+                    width: 66px;
+
+                    .icon {
+                        color: #8ecae6;
+                    }
+                }
+            }
+            .habitacion-descripcion{
+                text-align: left;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

@@ -5,7 +5,7 @@ import "./style.scss";
 
 const Servicios = () => {
     return (
-        <section className="servicios">
+        <section className="section-servicios">
             <h2>Descubre el hostel</h2>
             <p className="subtitle">
                 Viajar te da historias que contar, queremos ser parte de la tuya
